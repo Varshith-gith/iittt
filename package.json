@@ -1,0 +1,12 @@
+{
+  "name": "iitt-website",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tailwindcss -i input.css -o output.css --watch",
+    "build-prod": "tailwindcss -i input.css -o output.css --minify"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.16",
+    "tailwindcss": "^4.1.16"
+  }
+}
